@@ -60,8 +60,8 @@ int main()
  getch();
  return 0;
 }
-/Function to return game status
-1 for game is over, -1 is over with result, 0 is game over with no result/
+//Function to return game status
+//1 for game is over, -1 is over with result, 0 is game over with no result/
 int checkwin()
 {
  if (square[1] == square[2] && square[2] == square[3])
@@ -95,7 +95,7 @@ int checkwin()
  else
  return - 1;
 }
-/Function for player's mark/
+//Function for player's mark
 void board()
 {
  system("cls");
